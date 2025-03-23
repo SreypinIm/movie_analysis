@@ -1,7 +1,7 @@
 ### IMDb Movie Recommendation System
 
 ### Project Overview
-The IMDb Movie Recommendation System is a Python-based application that allows users to search for movies, rate them, and view the top-rated and most popular films. The system includes a user authentication module that enables users to create accounts and log in before accessing movie-related features. It processes movie data from a CSV file and provides insights through text-based search and graphical visualizations.
+This project integrates Python, Data Analysis, and Secure User Management to build a higher data movie using an IMDb movie dataset for suggestion user get the entertainment movies. The system allows users to register and log in, leveraging encapsulation and password encryption. Upon login, users can search for movies by author, year, or rating, receiving personalized preferent on data analysis techniques. The system processes and filters the IMDb dataset to suggest top-rated movies. This implementation provides an efficient and interactive way to explore and analyze movie data. 
 
 
 ### Key Features
