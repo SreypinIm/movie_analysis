@@ -22,12 +22,9 @@ imdb_movie_dataset.csv (Movie dataset file)
 user.csv (User account storage; automatically created if not present)
 
 
-### Dependencies or Installation Instructions
-pandas (for handling CSV data)
-matplotlib (for generating charts)
+### Dependencies and Installation Instructions
+pip install -r requirement.txt
 
-### Install Dependencies:
-pip install pandas matplotlib
 
 ### Run the Script
 python main.py
