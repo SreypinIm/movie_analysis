@@ -75,7 +75,7 @@ def create_account():
 
     domains = ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com"]
     
-    while not re.match(r"[^@]+@[^@]+\.[^@]+", email) or email.split("@")[1] not in domains:
+    while not re.match(r"[^@]+@[^@]+\.[^@]+", email):
         print("Invalid email format. Please enter a valid email address (e.g., gmail.com, yahoo.com, outlook.com, hotmail.com).")
         email = input("Enter your email again: ")
 
@@ -328,6 +328,8 @@ while True:
         print(" " * 40 + "Exiting... Program!")
         print("=" * 100)
         break
+    else:
+        print("Invalid choice. Try again.")
 
 if __name__ == "main":
     main()
